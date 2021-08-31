@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="testjava:war exploded">
+    <output-path>$PROJECT_DIR$/target/testjava-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>testjava</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="testjava" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:1.2.0.v201105211821" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty.orbit:javax.servlet:2.5.0.v201103041518" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty.orbit:javax.servlet.jsp:2.1.0.v201105211820" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:jstl-connector:10.0-b28" />
+          <element id="library" level="project" name="Maven: com.sun.enterprise:hk2:0.3.31" />
+          <element id="library" level="project" name="Maven: com.sun.enterprise:hk2-core:0.3.31" />
+          <element id="library" level="project" name="Maven: com.sun.enterprise:config:0.3.31" />
+          <element id="library" level="project" name="Maven: com.sun.enterprise:tiger-types-osgi:0.3.31" />
+          <element id="library" level="project" name="Maven: com.sun.enterprise:auto-depends:0.3.31" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:jstl-impl:1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" />
+          <element id="library" level="project" name="Maven: org.glassfish:javax.servlet.jsp.jstl:10.0-b28" />
+          <element id="library" level="project" name="Maven: org.glassfish.common:glassfish-api:10.0.422" />
+          <element id="library" level="project" name="Maven: org.glassfish.common:common-util:10.0-b28" />
+          <element id="library" level="project" name="Maven: org.glassfish:javax.xml.stream:10.0-b28" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/testjava-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="testjava/web/Web" />
+    </root>
+  </artifact>
+</component>
