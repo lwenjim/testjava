@@ -1,8 +1,8 @@
 package com.lwenjim.demo.servlet;
 
+import com.library.Request;
 import com.lwenjim.demo.Constant;
 import com.lwenjim.demo.Pager;
-import com.lwenjim.demo.StringUtil;
 import com.lwenjim.demo.model.Course;
 import com.lwenjim.demo.service.SublistCourseServiceImpl;
 
@@ -13,11 +13,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "SublistCourseServlet", value = "/sublist/SublistServlet")
+@WebServlet(name = "SublistCourseServlet", value = "sublist/SublistServlet")
 public class SublistCourseServlet extends HttpServlet
 {
-	private static final long                     serialVersionUID     = -3658128508633145268L;
-	protected            SublistCourseServiceImpl sublistCourseService = new SublistCourseServiceImpl();
+	protected SublistCourseServiceImpl service = new SublistCourseServiceImpl();
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
@@ -28,33 +27,22 @@ public class SublistCourseServlet extends HttpServlet
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
 	{
-		String courseId   = req.getParameter("course_id");
-		String courseName = req.getParameter("course_name");
-		String pageNumStr = req.getParameter("pageNum");
-		if (pageNumStr != null && StringUtil.isNum(pageNumStr)) {
-			System.out.println("参数错误");
-			return;
-		}
-		int pageNum = Constant.DEFAULT_PAGE_NUM;
-		if (pageNumStr != null && !"".equals(pageNumStr)) {
-			pageNum = Integer.parseInt(pageNumStr);
-		}
-		String pageSizeStr = req.getParameter("pageSize");
-		if (pageSizeStr != null && !StringUtil.isNum(pageSizeStr)) {
-			System.out.println("参数错误");
-			return;
-		}
-		int pageSize = Constant.DEFAULT_PAGE_SIZE;
-		if (pageSizeStr != null && !"".equals(pageSizeStr)) {
-			pageSize = Integer.parseInt(pageSizeStr);
-		}
-		Course course = new Course();
-		if (courseId != null && !"".equals(courseId)) {
-			course.setCourseId(Long.parseLong(courseId));
-		}
-		course.setCourseName(courseName);
-		Pager<Course> result = sublistCourseService.findCourse(course, pageNum, pageSize);
+		Request newReq = new Request(req);
+		Course  course = new Course();
+		course.setCourseId(newReq.getLong("course_id"));
+		course.setCourseName(newReq.getString("course_name"));
+		Pager<Course> result = service.findCourse(course, getPage(newReq), getPageSize(newReq));
 		req.setAttribute("result", result);
 		req.getRequestDispatcher("sublistStudent.jsp").forward(req, resp);
+	}
+
+	protected int getPage(Request re)
+	{
+		return re.getInt("pageNum", Constant.DEFAULT_PAGE_NUM);
+	}
+
+	protected int getPageSize(Request re)
+	{
+		return re.getInt("pageSize", Constant.DEFAULT_PAGE_SIZE);
 	}
 }

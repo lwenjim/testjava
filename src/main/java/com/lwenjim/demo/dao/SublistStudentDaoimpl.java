@@ -25,7 +25,7 @@ public class SublistStudentDaoimpl implements CourseDao
 		StringBuilder     sql       = new StringBuilder("select * from course where 1=1");
 		if (model.getCourseName() != null && !model.getCourseName().equals("")) {
 			sql.append(" and course_name like ?");
-			paramList.add(String.format("%% %s %%", model.getCourseName()));
+			paramList.add(String.format("%%%s%%", model.getCourseName()));
 		}
 		if (model.getCourseId() != null && model.getCourseId() > 0) {
 			sql.append(" and course_id=?");
@@ -55,6 +55,5 @@ public class SublistStudentDaoimpl implements CourseDao
 	public static void main(String[] args)
 	{
 		List<Course> list = getList(new Course());
-
 	}
 }

@@ -9,10 +9,17 @@
 </head>
 <%
     String context = request.getContextPath();
+        request.setAttribute("course_id", request.getParameter("course_id"));
+        request.setAttribute("course_name", request.getParameter("course_name"));
 %>
 
 <body>
 <div style="margin-left: 100px; margin-top: 100px;">
+    <form action="SublistServlet">
+        <label>课程编号:</label><label><input name="course_id" value='${course_id}'/></label>
+        <label>课程名称:</label><label><input name="course_name" value='${course_name}'/></label>
+        <input type="submit" name="提交"/>
+    </form>
     <c:if test="${fn:length(result.dataList) eq 0 }">
         <span>查询的结果不存在</span>
     </c:if>
