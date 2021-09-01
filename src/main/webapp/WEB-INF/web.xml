@@ -9,7 +9,7 @@
 
     <servlet>
         <servlet-name>SublistCourseServlet</servlet-name>
-        <servlet-class>com.lwenjim.demo.servlet.SublistCourseServlet</servlet-class>
+        <servlet-class>com.classba.center.servlet.SublistCourseServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SublistCourseServlet</servlet-name>

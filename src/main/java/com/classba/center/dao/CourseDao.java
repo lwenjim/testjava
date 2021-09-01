@@ -1,7 +1,7 @@
-package com.lwenjim.demo.dao;
+package com.classba.center.dao;
 
-import com.lwenjim.demo.Pager;
-import com.lwenjim.demo.model.Course;
+import com.classba.center.Pager;
+import com.classba.center.model.Course;
 
 public interface CourseDao
 {

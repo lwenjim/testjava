@@ -8,6 +8,6 @@
 		<property name="connection.username">root</property>
 		<property name="connection.password">123456!@#</property>
 		<property name="show_sql">true</property>
-		<mapping class="com.lwenjim.demo.model.Course" />
+		<mapping class="com.classba.center.model.Course" />
 	</session-factory>
 </hibernate-configuration>

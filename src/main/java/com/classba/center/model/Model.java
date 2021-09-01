@@ -1,4 +1,4 @@
-package com.lwenjim.demo.model;
+package com.classba.center.model;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

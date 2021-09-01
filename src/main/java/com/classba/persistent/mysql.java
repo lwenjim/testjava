@@ -1,11 +1,11 @@
-package com.lwenjim.demo002;
+package com.classba.persistent;
 
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Hello
+public class mysql
 {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException
 	{

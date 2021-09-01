@@ -1,9 +1,9 @@
-package com.lwenjim.demo.service;
+package com.classba.center.service;
 
-import com.lwenjim.demo.Pager;
-import com.lwenjim.demo.dao.CourseDao;
-import com.lwenjim.demo.dao.SublistStudentDaoimpl;
-import com.lwenjim.demo.model.Course;
+import com.classba.center.Pager;
+import com.classba.center.dao.CourseDao;
+import com.classba.center.dao.SublistStudentDaoimpl;
+import com.classba.center.model.Course;
 
 public class SublistCourseServiceImpl implements CourseService
 {

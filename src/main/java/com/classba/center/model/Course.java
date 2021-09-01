@@ -1,4 +1,4 @@
-package com.lwenjim.demo.model;
+package com.classba.center.model;
 
 import javax.persistence.*;
 import java.io.Serializable;

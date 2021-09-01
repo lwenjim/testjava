@@ -1,4 +1,4 @@
-package com.lwenjim.demo;
+package com.classba.center;
 
 import java.io.Serializable;
 import java.util.List;
