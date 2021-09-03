@@ -38,7 +38,7 @@ public class JdbcUtil
 
 	}
 
-	public Connection getConnection()
+	public void initConnection()
 	{
 		try {
 			Class.forName(DRIVER);
@@ -46,7 +46,6 @@ public class JdbcUtil
 		} catch (Exception e) {
 			throw new RuntimeException("get connection error!", e);
 		}
-		return connection;
 	}
 
 	public boolean updateByPreparedStatement(String sql, List<?> params) throws Exception
@@ -119,7 +118,7 @@ public class JdbcUtil
 	public static void main(String[] args)
 	{
 		JdbcUtil jdbcUtil = new JdbcUtil();
-		jdbcUtil.getConnection();
+		jdbcUtil.initConnection();
 		try {
 			List<Map<String, Object>> result = jdbcUtil.findResult("select course_id,course_name from course", null);
 			for (Map<String, Object> m : result) {

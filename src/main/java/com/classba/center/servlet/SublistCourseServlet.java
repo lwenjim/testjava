@@ -29,10 +29,8 @@ public class SublistCourseServlet extends HttpServlet
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 	{
 		try {
-			Request newReq = new Request(req);
-			Course  course = new Course();
-			course.setCourseId(newReq.getLong("course_id"));
-			course.setCourseName(newReq.getString("course_name"));
+			Request       newReq = new Request(req);
+			Course        course = new Course(newReq.getLong("course_id"), newReq.getString("course_name"));
 			Pager<Course> result = service.findCourse(course, getPage(newReq), getPageSize(newReq));
 			req.setAttribute("result", result);
 			req.getRequestDispatcher("sublistStudent.jsp").forward(req, resp);

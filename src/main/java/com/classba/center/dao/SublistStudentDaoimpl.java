@@ -34,7 +34,7 @@ public class SublistStudentDaoimpl implements CourseDao
 		JdbcUtil jdbc = null;
 		try {
 			jdbc = new JdbcUtil();
-			jdbc.getConnection();
+			jdbc.initConnection();
 			List<Map<String, Object>> mapList = jdbc.findResult(sql.toString(), paramList);
 			if (mapList != null) {
 				for (Map<String, Object> map : mapList) {
