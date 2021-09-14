@@ -9,6 +9,8 @@ import org.apache.kafka.common.TopicPartition;
 import org.junit.Test;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 
 
 public class Kafka
@@ -16,6 +18,9 @@ public class Kafka
 	@Test
 	public void consumer()
 	{
+		AtomicInteger                     i;
+		ConcurrentHashMap<String, String> a;
+
 		HashMap<String, Object> map = new HashMap<>();
 		map.put("bootstrap.servers", "localhost:9092");
 		map.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
