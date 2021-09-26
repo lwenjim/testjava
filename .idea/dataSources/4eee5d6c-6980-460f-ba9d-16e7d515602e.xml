@@ -1,0 +1,5084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="jdbc">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.23">
+    <root id="1">
+      <ServerVersion>8.0.16</ServerVersion>
+      <Grants>|root||db_admin||ALTER|G
+|root||root||ALTER|G
+|root||root|localhost|ALTER|G
+|root||db_admin||ALTER ROUTINE|G
+|root||root||ALTER ROUTINE|G
+|root||root|localhost|ALTER ROUTINE|G
+|root||db_admin||APPLICATION_PASSWORD_ADMIN|G
+|root||root||APPLICATION_PASSWORD_ADMIN|G
+|root||root|localhost|APPLICATION_PASSWORD_ADMIN|G
+|root||db_admin||BACKUP_ADMIN|G
+|root||root||BACKUP_ADMIN|G
+|root||root|localhost|BACKUP_ADMIN|G
+|root||db_admin||BINLOG_ADMIN|G
+|root||root||BINLOG_ADMIN|G
+|root||root|localhost|BINLOG_ADMIN|G
+|root||db_admin||BINLOG_ENCRYPTION_ADMIN|G
+|root||root||BINLOG_ENCRYPTION_ADMIN|G
+|root||root|localhost|BINLOG_ENCRYPTION_ADMIN|G
+|root||db_admin||CONNECTION_ADMIN|G
+|root||root||CONNECTION_ADMIN|G
+|root||root|localhost|CONNECTION_ADMIN|G
+|root||db_admin||CREATE|G
+|root||root||CREATE|G
+|root||root|localhost|CREATE|G
+|root||db_admin||CREATE ROLE|G
+|root||root||CREATE ROLE|G
+|root||root|localhost|CREATE ROLE|G
+|root||db_admin||CREATE ROUTINE|G
+|root||root||CREATE ROUTINE|G
+|root||root|localhost|CREATE ROUTINE|G
+|root||db_admin||CREATE TABLESPACE|G
+|root||root||CREATE TABLESPACE|G
+|root||root|localhost|CREATE TABLESPACE|G
+|root||db_admin||CREATE TEMPORARY TABLES|G
+|root||root||CREATE TEMPORARY TABLES|G
+|root||root|localhost|CREATE TEMPORARY TABLES|G
+|root||db_admin||CREATE USER|G
+|root||root||CREATE USER|G
+|root||root|localhost|CREATE USER|G
+|root||db_admin||CREATE VIEW|G
+|root||root||CREATE VIEW|G
+|root||root|localhost|CREATE VIEW|G
+|root||db_admin||DELETE|G
+|root||root||DELETE|G
+|root||root|localhost|DELETE|G
+|root||db_admin||DROP|G
+|root||root||DROP|G
+|root||root|localhost|DROP|G
+|root||db_admin||DROP ROLE|G
+|root||root||DROP ROLE|G
+|root||root|localhost|DROP ROLE|G
+|root||db_admin||ENCRYPTION_KEY_ADMIN|G
+|root||root||ENCRYPTION_KEY_ADMIN|G
+|root||root|localhost|ENCRYPTION_KEY_ADMIN|G
+|root||db_admin||EVENT|G
+|root||root||EVENT|G
+|root||root|localhost|EVENT|G
+|root||db_admin||EXECUTE|G
+|root||root||EXECUTE|G
+|root||root|localhost|EXECUTE|G
+|root||db_admin||FILE|G
+|root||root||FILE|G
+|root||root|localhost|FILE|G
+|root||db_admin||GROUP_REPLICATION_ADMIN|G
+|root||root||GROUP_REPLICATION_ADMIN|G
+|root||root|localhost|GROUP_REPLICATION_ADMIN|G
+|root||db_admin||INDEX|G
+|root||root||INDEX|G
+|root||root|localhost|INDEX|G
+|root||db_admin||INSERT|G
+|root||root||INSERT|G
+|root||root|localhost|INSERT|G
+|root||db_admin||LOCK TABLES|G
+|root||root||LOCK TABLES|G
+|root||root|localhost|LOCK TABLES|G
+|root||db_admin||PERSIST_RO_VARIABLES_ADMIN|G
+|root||mysql.session|localhost|PERSIST_RO_VARIABLES_ADMIN|G
+|root||root||PERSIST_RO_VARIABLES_ADMIN|G
+|root||root|localhost|PERSIST_RO_VARIABLES_ADMIN|G
+|root||db_admin||PROCESS|G
+|root||root||PROCESS|G
+|root||root|localhost|PROCESS|G
+|root||db_admin||REFERENCES|G
+|root||root||REFERENCES|G
+|root||root|localhost|REFERENCES|G
+|root||db_admin||RELOAD|G
+|root||root||RELOAD|G
+|root||root|localhost|RELOAD|G
+|root||db_admin||REPLICATION CLIENT|G
+|root||root||REPLICATION CLIENT|G
+|root||root|localhost|REPLICATION CLIENT|G
+|root||db_admin||REPLICATION SLAVE|G
+|root||root||REPLICATION SLAVE|G
+|root||root|localhost|REPLICATION SLAVE|G
+|root||db_admin||REPLICATION_SLAVE_ADMIN|G
+|root||root||REPLICATION_SLAVE_ADMIN|G
+|root||root|localhost|REPLICATION_SLAVE_ADMIN|G
+|root||db_admin||RESOURCE_GROUP_ADMIN|G
+|root||root||RESOURCE_GROUP_ADMIN|G
+|root||root|localhost|RESOURCE_GROUP_ADMIN|G
+|root||db_admin||RESOURCE_GROUP_USER|G
+|root||root||RESOURCE_GROUP_USER|G
+|root||root|localhost|RESOURCE_GROUP_USER|G
+|root||db_admin||ROLE_ADMIN|G
+|root||root||ROLE_ADMIN|G
+|root||root|localhost|ROLE_ADMIN|G
+|root||db_admin||SELECT|G
+|root||mysql.infoschema|localhost|SELECT|G
+|root||root||SELECT|G
+|root||root|localhost|SELECT|G
+|root||db_admin||SERVICE_CONNECTION_ADMIN|G
+|root||root||SERVICE_CONNECTION_ADMIN|G
+|root||root|localhost|SERVICE_CONNECTION_ADMIN|G
+|root||db_admin||SESSION_VARIABLES_ADMIN|G
+|root||mysql.session|localhost|SESSION_VARIABLES_ADMIN|G
+|root||root||SESSION_VARIABLES_ADMIN|G
+|root||root|localhost|SESSION_VARIABLES_ADMIN|G
+|root||db_admin||SET_USER_ID|G
+|root||root||SET_USER_ID|G
+|root||root|localhost|SET_USER_ID|G
+|root||db_admin||SHOW DATABASES|G
+|root||root||SHOW DATABASES|G
+|root||root|localhost|SHOW DATABASES|G
+|root||db_admin||SHOW VIEW|G
+|root||root||SHOW VIEW|G
+|root||root|localhost|SHOW VIEW|G
+|root||db_admin||SHUTDOWN|G
+|root||root||SHUTDOWN|G
+|root||root|localhost|SHUTDOWN|G
+|root||db_admin||SUPER|G
+|root||mysql.session|localhost|SUPER|G
+|root||root||SUPER|G
+|root||root|localhost|SUPER|G
+|root||db_admin||SYSTEM_USER|G
+|root||mysql.session|localhost|SYSTEM_USER|G
+|root||root||SYSTEM_USER|G
+|root||root|localhost|SYSTEM_USER|G
+|root||db_admin||SYSTEM_VARIABLES_ADMIN|G
+|root||mysql.session|localhost|SYSTEM_VARIABLES_ADMIN|G
+|root||root||SYSTEM_VARIABLES_ADMIN|G
+|root||root|localhost|SYSTEM_VARIABLES_ADMIN|G
+|root||db_admin||TABLE_ENCRYPTION_ADMIN|G
+|root||root||TABLE_ENCRYPTION_ADMIN|G
+|root||root|localhost|TABLE_ENCRYPTION_ADMIN|G
+|root||db_admin||TRIGGER|G
+|root||root||TRIGGER|G
+|root||root|localhost|TRIGGER|G
+|root||db_admin||UPDATE|G
+|root||root||UPDATE|G
+|root||root|localhost|UPDATE|G
+|root||db_admin||XA_RECOVER_ADMIN|G
+|root||root||XA_RECOVER_ADMIN|G
+|root||root|localhost|XA_RECOVER_ADMIN|G
+|root||root|localhost|grant option|G
+course_db|schema||lwenjim||DELETE|G
+course_db|schema||lwenjim||DROP|G
+course_db|schema||lwenjim||EXECUTE|G
+course_db|schema||lwenjim||INDEX|G
+course_db|schema||lwenjim||INSERT|G
+course_db|schema||lwenjim||LOCK TABLES|G
+course_db|schema||lwenjim||REFERENCES|G
+course_db|schema||lwenjim||SELECT|G
+course_db|schema||lwenjim||SHOW VIEW|G
+course_db|schema||lwenjim||TRIGGER|G
+course_db|schema||lwenjim||UPDATE|G
+imooc|schema||lwenjim||DELETE|G
+imooc|schema||lwenjim||DROP|G
+imooc|schema||lwenjim||EXECUTE|G
+imooc|schema||lwenjim||INDEX|G
+imooc|schema||lwenjim||INSERT|G
+imooc|schema||lwenjim||LOCK TABLES|G
+imooc|schema||lwenjim||REFERENCES|G
+imooc|schema||lwenjim||SELECT|G
+imooc|schema||lwenjim||SHOW VIEW|G
+imooc|schema||lwenjim||TRIGGER|G
+imooc|schema||lwenjim||UPDATE|G
+performance_schema|schema||mysql.session|localhost|SELECT|G
+sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <DefaultCasing>mixed/mixed</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="course_db">
+      <Current>1</Current>
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="imooc">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="2019ncov">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="blog">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="course">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="course_db_5">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="course_db_prd">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="dataj4mysql">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="11" parent="1" name="db_yx_api_statistics">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="12" parent="1" name="db_yx_check_tool">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="13" parent="1" name="db_yx_cms_stats">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="14" parent="1" name="db_yx_course">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="15" parent="1" name="db_yx_dpool_track">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="16" parent="1" name="db_yx_dpool_v5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="17" parent="1" name="db_yx_items_items_rdd_0">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="18" parent="1" name="db_yx_items_items_rdd_1">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="19" parent="1" name="db_yx_items_items_rdd_2">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="20" parent="1" name="db_yx_items_items_rdd_3">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="21" parent="1" name="db_yx_items_items_rdd_4">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="22" parent="1" name="db_yx_items_items_rdd_5">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="23" parent="1" name="db_yx_items_items_rdd_6">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="24" parent="1" name="db_yx_items_items_rdd_7">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="25" parent="1" name="db_yx_items_items_rdd_8">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="26" parent="1" name="db_yx_items_items_rdd_9">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="27" parent="1" name="db_yx_items_items_rdd_a">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="28" parent="1" name="db_yx_items_items_rdd_b">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="29" parent="1" name="db_yx_items_items_rdd_c">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="30" parent="1" name="db_yx_items_items_rdd_d">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="31" parent="1" name="db_yx_items_items_rdd_e">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="32" parent="1" name="db_yx_items_items_rdd_f">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="33" parent="1" name="db_yx_items_lo_rdd_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="34" parent="1" name="db_yx_items_lo_rdd_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="35" parent="1" name="db_yx_items_lo_rdd_2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="36" parent="1" name="db_yx_items_lo_rdd_3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="37" parent="1" name="db_yx_items_lo_rdd_4">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="38" parent="1" name="db_yx_items_lo_rdd_5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="39" parent="1" name="db_yx_items_lo_rdd_6">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="40" parent="1" name="db_yx_items_lo_rdd_7">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="41" parent="1" name="db_yx_items_lo_rdd_8">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="42" parent="1" name="db_yx_items_lo_rdd_9">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="43" parent="1" name="db_yx_items_lo_rdd_a">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="44" parent="1" name="db_yx_items_lo_rdd_b">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="45" parent="1" name="db_yx_items_lo_rdd_c">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="46" parent="1" name="db_yx_items_lo_rdd_d">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="47" parent="1" name="db_yx_items_lo_rdd_e">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="48" parent="1" name="db_yx_items_lo_rdd_f">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="49" parent="1" name="db_yx_items_question_analyze_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="50" parent="1" name="db_yx_items_question_analyze_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="51" parent="1" name="db_yx_items_question_analyze_2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="52" parent="1" name="db_yx_items_question_analyze_3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="53" parent="1" name="db_yx_items_question_analyze_4">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="54" parent="1" name="db_yx_items_question_analyze_5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="55" parent="1" name="db_yx_items_question_analyze_6">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="56" parent="1" name="db_yx_items_question_analyze_7">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="57" parent="1" name="db_yx_items_question_analyze_8">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="58" parent="1" name="db_yx_items_question_analyze_9">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="59" parent="1" name="db_yx_items_question_analyze_a">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="60" parent="1" name="db_yx_items_question_analyze_b">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="61" parent="1" name="db_yx_items_question_analyze_c">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="62" parent="1" name="db_yx_items_question_analyze_d">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="63" parent="1" name="db_yx_items_question_analyze_e">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="64" parent="1" name="db_yx_items_question_analyze_f">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="65" parent="1" name="db_yx_items_question_answer_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="66" parent="1" name="db_yx_items_question_answer_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="67" parent="1" name="db_yx_items_question_answer_2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="68" parent="1" name="db_yx_items_question_answer_3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="69" parent="1" name="db_yx_items_question_answer_4">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="70" parent="1" name="db_yx_items_question_answer_5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="71" parent="1" name="db_yx_items_question_answer_6">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="72" parent="1" name="db_yx_items_question_answer_7">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="73" parent="1" name="db_yx_items_question_answer_8">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="74" parent="1" name="db_yx_items_question_answer_9">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="75" parent="1" name="db_yx_items_question_answer_a">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="76" parent="1" name="db_yx_items_question_answer_b">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="77" parent="1" name="db_yx_items_question_answer_c">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="78" parent="1" name="db_yx_items_question_answer_d">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="79" parent="1" name="db_yx_items_question_answer_e">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="80" parent="1" name="db_yx_items_question_answer_f">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="81" parent="1" name="db_yx_items_question_basic">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="82" parent="1" name="db_yx_items_question_body_0">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="83" parent="1" name="db_yx_items_question_body_1">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="84" parent="1" name="db_yx_items_question_body_2">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="85" parent="1" name="db_yx_items_question_body_3">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="86" parent="1" name="db_yx_items_question_body_4">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="87" parent="1" name="db_yx_items_question_body_5">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="88" parent="1" name="db_yx_items_question_body_6">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="89" parent="1" name="db_yx_items_question_body_7">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="90" parent="1" name="db_yx_items_question_body_8">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="91" parent="1" name="db_yx_items_question_body_9">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="92" parent="1" name="db_yx_items_question_body_a">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="93" parent="1" name="db_yx_items_question_body_b">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="94" parent="1" name="db_yx_items_question_body_c">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="95" parent="1" name="db_yx_items_question_body_d">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="96" parent="1" name="db_yx_items_question_body_e">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="97" parent="1" name="db_yx_items_question_body_f">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="98" parent="1" name="db_yx_items_question_check">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="99" parent="1" name="db_yx_items_question_ext">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="100" parent="1" name="db_yx_items_question_history_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="101" parent="1" name="db_yx_items_question_history_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="102" parent="1" name="db_yx_items_question_history_2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="103" parent="1" name="db_yx_items_question_history_3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="104" parent="1" name="db_yx_items_question_history_4">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="105" parent="1" name="db_yx_items_question_history_5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="106" parent="1" name="db_yx_items_question_history_6">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="107" parent="1" name="db_yx_items_question_history_7">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="108" parent="1" name="db_yx_items_question_history_8">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="109" parent="1" name="db_yx_items_question_history_9">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="110" parent="1" name="db_yx_items_question_history_a">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="111" parent="1" name="db_yx_items_question_history_b">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="112" parent="1" name="db_yx_items_question_history_c">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="113" parent="1" name="db_yx_items_question_history_d">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="114" parent="1" name="db_yx_items_question_history_e">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="115" parent="1" name="db_yx_items_question_history_f">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="116" parent="1" name="db_yx_items_question_option_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="117" parent="1" name="db_yx_items_question_option_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="118" parent="1" name="db_yx_items_question_option_2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="119" parent="1" name="db_yx_items_question_option_3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="120" parent="1" name="db_yx_items_question_option_4">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="121" parent="1" name="db_yx_items_question_option_5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="122" parent="1" name="db_yx_items_question_option_6">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="123" parent="1" name="db_yx_items_question_option_7">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="124" parent="1" name="db_yx_items_question_option_8">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="125" parent="1" name="db_yx_items_question_option_9">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="126" parent="1" name="db_yx_items_question_option_a">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="127" parent="1" name="db_yx_items_question_option_b">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="128" parent="1" name="db_yx_items_question_option_c">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="129" parent="1" name="db_yx_items_question_option_d">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="130" parent="1" name="db_yx_items_question_option_e">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="131" parent="1" name="db_yx_items_question_option_f">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="132" parent="1" name="db_yx_items_question_region_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="133" parent="1" name="db_yx_items_question_region_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="134" parent="1" name="db_yx_items_question_region_2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="135" parent="1" name="db_yx_items_question_region_3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="136" parent="1" name="db_yx_items_question_region_4">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="137" parent="1" name="db_yx_items_question_region_5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="138" parent="1" name="db_yx_items_question_region_6">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="139" parent="1" name="db_yx_items_question_region_7">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="140" parent="1" name="db_yx_items_question_region_8">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="141" parent="1" name="db_yx_items_question_region_9">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="142" parent="1" name="db_yx_items_question_region_b">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="143" parent="1" name="db_yx_items_question_region_c">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="144" parent="1" name="db_yx_items_question_region_d">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="145" parent="1" name="db_yx_items_question_region_e">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="146" parent="1" name="db_yx_items_question_region_f">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="147" parent="1" name="db_yx_items_question_scoring_criteria_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="148" parent="1" name="db_yx_items_question_scoring_criteria_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="149" parent="1" name="db_yx_items_question_scoring_criteria_2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="150" parent="1" name="db_yx_items_question_scoring_criteria_3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="151" parent="1" name="db_yx_items_question_scoring_criteria_4">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="152" parent="1" name="db_yx_items_question_scoring_criteria_5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="153" parent="1" name="db_yx_items_question_scoring_criteria_6">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="154" parent="1" name="db_yx_items_question_scoring_criteria_7">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="155" parent="1" name="db_yx_items_question_scoring_criteria_8">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="156" parent="1" name="db_yx_items_question_scoring_criteria_9">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="157" parent="1" name="db_yx_items_question_scoring_criteria_a">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="158" parent="1" name="db_yx_items_question_scoring_criteria_b">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="159" parent="1" name="db_yx_items_question_scoring_criteria_c">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="160" parent="1" name="db_yx_items_question_scoring_criteria_d">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="161" parent="1" name="db_yx_items_question_scoring_criteria_e">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="162" parent="1" name="db_yx_items_question_scoring_criteria_f">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="163" parent="1" name="db_yx_items_question_tips_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="164" parent="1" name="db_yx_items_question_tips_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="165" parent="1" name="db_yx_items_question_tips_2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="166" parent="1" name="db_yx_items_question_tips_3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="167" parent="1" name="db_yx_items_question_tips_4">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="168" parent="1" name="db_yx_items_question_tips_5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="169" parent="1" name="db_yx_items_question_tips_6">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="170" parent="1" name="db_yx_items_question_tips_7">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="171" parent="1" name="db_yx_items_question_tips_8">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="172" parent="1" name="db_yx_items_question_tips_9">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="173" parent="1" name="db_yx_items_question_tips_a">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="174" parent="1" name="db_yx_items_question_tips_b">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="175" parent="1" name="db_yx_items_question_tips_c">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="176" parent="1" name="db_yx_items_question_tips_d">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="177" parent="1" name="db_yx_items_question_tips_e">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="178" parent="1" name="db_yx_items_question_tips_f">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="179" parent="1" name="db_yx_kmap">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="180" parent="1" name="db_yx_knowledge_import_log">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="181" parent="1" name="db_yx_knowledge_import_rdd">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="182" parent="1" name="db_yx_knowledge_source_import_log">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="183" parent="1" name="db_yx_knowledge_textbook_rdd">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="184" parent="1" name="db_yx_lib">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="185" parent="1" name="db_yx_lo_factors">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="186" parent="1" name="db_yx_lo_knowledge">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="187" parent="1" name="db_yx_lo_knowledge_resource_rdd">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="188" parent="1" name="db_yx_lo_lo_rdd_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="189" parent="1" name="db_yx_lo_lo_rdd_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="190" parent="1" name="db_yx_lo_lo_rdd_2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="191" parent="1" name="db_yx_lo_lo_rdd_3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="192" parent="1" name="db_yx_lo_lo_rdd_4">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="193" parent="1" name="db_yx_lo_lo_rdd_5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="194" parent="1" name="db_yx_lo_lo_rdd_6">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="195" parent="1" name="db_yx_lo_lo_rdd_7">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="196" parent="1" name="db_yx_lo_lo_rdd_8">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="197" parent="1" name="db_yx_lo_lo_rdd_9">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="198" parent="1" name="db_yx_lo_lo_rdd_a">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="199" parent="1" name="db_yx_lo_lo_rdd_b">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="200" parent="1" name="db_yx_lo_lo_rdd_c">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="201" parent="1" name="db_yx_lo_lo_rdd_d">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="202" parent="1" name="db_yx_lo_lo_rdd_e">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="203" parent="1" name="db_yx_lo_lo_rdd_f">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="204" parent="1" name="db_yx_lo_mcm">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="205" parent="1" name="db_yx_lo_methods">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="206" parent="1" name="db_yx_lo_reason">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="207" parent="1" name="db_yx_lo_reason_resource_rdd">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="208" parent="1" name="db_yx_lo_skill">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="209" parent="1" name="db_yx_lo_thoughts">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="210" parent="1" name="db_yx_local">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="211" parent="1" name="db_yx_question_api_log">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="212" parent="1" name="db_yx_question_import_log">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="213" parent="1" name="db_yx_question_import_rdd">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="214" parent="1" name="db_yx_question_op_log">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="215" parent="1" name="db_yx_question_stats">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="216" parent="1" name="db_yx_resource_video_account_analyze_tips_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="217" parent="1" name="db_yx_resource_video_account_analyze_tips_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="218" parent="1" name="db_yx_resource_video_account_analyze_tips_2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="219" parent="1" name="db_yx_resource_video_account_analyze_tips_3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="220" parent="1" name="db_yx_resource_video_account_analyze_tips_4">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="221" parent="1" name="db_yx_resource_video_account_analyze_tips_5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="222" parent="1" name="db_yx_resource_video_account_analyze_tips_6">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="223" parent="1" name="db_yx_resource_video_account_analyze_tips_7">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="224" parent="1" name="db_yx_resource_video_account_analyze_tips_8">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="225" parent="1" name="db_yx_resource_video_account_analyze_tips_9">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="226" parent="1" name="db_yx_resource_video_account_analyze_tips_a">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="227" parent="1" name="db_yx_resource_video_account_analyze_tips_b">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="228" parent="1" name="db_yx_resource_video_account_analyze_tips_c">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="229" parent="1" name="db_yx_resource_video_account_analyze_tips_d">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="230" parent="1" name="db_yx_resource_video_account_analyze_tips_e">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="231" parent="1" name="db_yx_resource_video_account_analyze_tips_f">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="232" parent="1" name="db_yx_resource_video_event_tips">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="233" parent="1" name="db_yx_statistics_data_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="234" parent="1" name="db_yx_statistics_data_1">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="235" parent="1" name="db_yx_statistics_data_2">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="236" parent="1" name="db_yx_statistics_data_3">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="237" parent="1" name="db_yx_statistics_data_4">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="238" parent="1" name="db_yx_statistics_data_5">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="239" parent="1" name="db_yx_statistics_data_6">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="240" parent="1" name="db_yx_statistics_data_7">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="241" parent="1" name="db_yx_statistics_data_8">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="242" parent="1" name="db_yx_statistics_data_9">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="243" parent="1" name="db_yx_statistics_data_a">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="244" parent="1" name="db_yx_statistics_data_b">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="245" parent="1" name="db_yx_statistics_data_c">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="246" parent="1" name="db_yx_statistics_data_d">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="247" parent="1" name="db_yx_statistics_data_e">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="248" parent="1" name="db_yx_statistics_data_f">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="249" parent="1" name="db_yx_taxonomy_data">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="250" parent="1" name="db_yx_teacher_feedback">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="251" parent="1" name="db_yx_teacher_feedback_results">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="252" parent="1" name="db_yx_test22">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="253" parent="1" name="db_yx_test_ui">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="254" parent="1" name="db_yx_v5_local">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="255" parent="1" name="db_yx_xdd">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="256" parent="1" name="dpool">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="257" parent="1" name="moon_db">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="258" parent="1" name="moon_db_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="259" parent="1" name="moon_db_v5_temp">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="260" parent="1" name="mysql">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="261" parent="1" name="MYSQL_DB">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="262" parent="1" name="operation_platform">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="263" parent="1" name="operation_platform_local">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="264" parent="1" name="operation_platform_v5">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="265" parent="1" name="performance_schema">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="266" parent="1" name="question_bank_check">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="267" parent="1" name="question_bank_chem">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="268" parent="1" name="question_bank_cn">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="269" parent="1" name="question_bank_en">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="270" parent="1" name="question_bank_math">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="271" parent="1" name="question_bank_phy">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="272" parent="1" name="sys">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="273" parent="1" name="test">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="274" parent="1" name="test1">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="275" parent="1" name="test_basic_data">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="276" parent="1" name="xiaoti_app_extends">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="277" parent="1" name="xiaoti_cms">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="278" parent="1" name="xiaoti_question">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="279" parent="1" name="xiaoti_question_diff">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="280" parent="1" name="xiaoti_rdd">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="281" parent="1" name="xiaoti_source">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="282" parent="1" name="yx_question_richard">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="283" parent="1" name="yx_question_v5">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="284" parent="1" name="yx_test_data">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <collation id="285" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+    </collation>
+    <collation id="286" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="287" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="288" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="289" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+    </collation>
+    <collation id="290" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="291" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="292" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="293" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="294" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="295" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="296" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="297" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="298" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="299" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="300" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="301" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="302" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+    </collation>
+    <collation id="303" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="304" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="305" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="306" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="307" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="308" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="309" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="310" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="311" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+    </collation>
+    <collation id="312" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="313" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+    </collation>
+    <collation id="314" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="315" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+    </collation>
+    <collation id="316" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="317" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+    </collation>
+    <collation id="318" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="319" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+    </collation>
+    <collation id="320" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="321" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
+    </collation>
+    <collation id="322" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="323" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
+    </collation>
+    <collation id="324" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+    </collation>
+    <collation id="325" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="326" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="327" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="328" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+    </collation>
+    <collation id="329" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="330" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+    </collation>
+    <collation id="331" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="332" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="333" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="334" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="335" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="336" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+    </collation>
+    <collation id="337" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="338" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="339" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="340" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+    </collation>
+    <collation id="341" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="342" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="343" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="344" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="345" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="346" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="347" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="348" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="349" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="350" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="351" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="352" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="353" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="354" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="355" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+    </collation>
+    <collation id="356" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="357" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="358" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="359" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="360" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="361" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+    </collation>
+    <collation id="362" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="363" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="364" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="365" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="366" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="367" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="368" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="369" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+    </collation>
+    <collation id="370" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="371" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="372" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="373" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="374" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="375" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="376" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="377" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="378" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="379" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="380" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="381" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="382" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="383" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="384" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="385" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="386" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="387" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="388" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="389" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="390" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="391" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="392" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="393" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="394" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="395" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="396" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="397" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="398" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="399" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="400" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="401" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="402" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="403" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="404" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="405" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="406" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="407" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="408" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="409" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="410" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="411" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="412" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="413" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="414" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="415" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="416" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="417" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="418" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="419" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="420" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="421" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="422" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="423" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="424" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="425" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="426" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+    </collation>
+    <collation id="427" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="428" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="429" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="430" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="431" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="432" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="433" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="434" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="435" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="436" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="437" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="438" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="439" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="440" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="441" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="442" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="443" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="444" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="445" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="446" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="447" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="448" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="449" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="450" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="451" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="452" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="453" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="454" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="455" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="456" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="457" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="458" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="459" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="460" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="461" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="462" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="463" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="464" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="465" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="466" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="467" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="468" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="469" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="470" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="471" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="472" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="473" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="474" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="475" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="476" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="477" parent="1" name="utf8_tolower_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="478" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="479" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="480" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="481" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="482" parent="1" name="utf8mb4_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="483" parent="1" name="utf8mb4_0900_as_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="484" parent="1" name="utf8mb4_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="485" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="486" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="487" parent="1" name="utf8mb4_cs_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="488" parent="1" name="utf8mb4_cs_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="489" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="490" parent="1" name="utf8mb4_da_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="491" parent="1" name="utf8mb4_da_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="492" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="493" parent="1" name="utf8mb4_de_pb_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="494" parent="1" name="utf8mb4_de_pb_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="495" parent="1" name="utf8mb4_eo_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="496" parent="1" name="utf8mb4_eo_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="497" parent="1" name="utf8mb4_es_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="498" parent="1" name="utf8mb4_es_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="499" parent="1" name="utf8mb4_es_trad_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="500" parent="1" name="utf8mb4_es_trad_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="501" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="502" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="503" parent="1" name="utf8mb4_et_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="504" parent="1" name="utf8mb4_et_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="505" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="506" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="507" parent="1" name="utf8mb4_hr_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="508" parent="1" name="utf8mb4_hr_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="509" parent="1" name="utf8mb4_hu_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="510" parent="1" name="utf8mb4_hu_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="511" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="512" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="513" parent="1" name="utf8mb4_is_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="514" parent="1" name="utf8mb4_is_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="515" parent="1" name="utf8mb4_ja_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="516" parent="1" name="utf8mb4_ja_0900_as_cs_ks">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="517" parent="1" name="utf8mb4_la_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="518" parent="1" name="utf8mb4_la_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="519" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="520" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="521" parent="1" name="utf8mb4_lt_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="522" parent="1" name="utf8mb4_lt_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="523" parent="1" name="utf8mb4_lv_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="524" parent="1" name="utf8mb4_lv_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="525" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="526" parent="1" name="utf8mb4_pl_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="527" parent="1" name="utf8mb4_pl_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="528" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="529" parent="1" name="utf8mb4_ro_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="530" parent="1" name="utf8mb4_ro_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="531" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="532" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="533" parent="1" name="utf8mb4_ru_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="534" parent="1" name="utf8mb4_ru_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="535" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="536" parent="1" name="utf8mb4_sk_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="537" parent="1" name="utf8mb4_sk_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="538" parent="1" name="utf8mb4_sl_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="539" parent="1" name="utf8mb4_sl_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="540" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="541" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="542" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="543" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="544" parent="1" name="utf8mb4_sv_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="545" parent="1" name="utf8mb4_sv_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="546" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="547" parent="1" name="utf8mb4_tr_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="548" parent="1" name="utf8mb4_tr_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="549" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="550" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="551" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="552" parent="1" name="utf8mb4_vi_0900_ai_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="553" parent="1" name="utf8mb4_vi_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="554" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="555" parent="1" name="utf8mb4_zh_0900_as_cs">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <user id="556" parent="1" name="lwenjim">
+      <Plugin>caching_sha2_password</Plugin>
+    </user>
+    <user id="557" parent="1" name="db_admin"/>
+    <user id="558" parent="1" name="root"/>
+    <user id="559" parent="1" name="mysql.infoschema">
+      <Host>localhost</Host>
+      <Plugin>caching_sha2_password</Plugin>
+    </user>
+    <user id="560" parent="1" name="mysql.session">
+      <Host>localhost</Host>
+      <Plugin>caching_sha2_password</Plugin>
+    </user>
+    <user id="561" parent="1" name="mysql.sys">
+      <Host>localhost</Host>
+      <Plugin>caching_sha2_password</Plugin>
+    </user>
+    <user id="562" parent="1" name="root">
+      <Host>localhost</Host>
+    </user>
+    <table id="563" parent="2" name="trigger">
+      <Comment>触发器表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="564" parent="2" name="summer_course_white">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="565" parent="2" name="stage">
+      <Comment>阶段表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="566" parent="2" name="rule_group_rdd">
+      <Comment>规则组与规则映射表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="567" parent="2" name="rule_condition_rdd">
+      <Comment>规则与条件关联表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="568" parent="2" name="rule_action_rdd">
+      <Comment>规则与行为关联表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="569" parent="2" name="rule">
+      <Comment>规则表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="570" parent="2" name="question_package_content">
+      <Comment>试题包内容</Comment>
+      <Collation>utf8mb4_general_ci</Collation>
+    </table>
+    <table id="571" parent="2" name="question_package">
+      <Comment>试题包</Comment>
+      <Collation>utf8mb4_general_ci</Collation>
+    </table>
+    <table id="572" parent="2" name="processes">
+      <Comment>环节</Comment>
+    </table>
+    <table id="573" parent="2" name="process_types"/>
+    <table id="574" parent="2" name="process_modes"/>
+    <table id="575" parent="2" name="order_map">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="576" parent="2" name="op_logs">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="577" parent="2" name="initialized_lesson">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="578" parent="2" name="group_process_rdd"/>
+    <table id="579" parent="2" name="group_depend_rdd_rdd"/>
+    <table id="580" parent="2" name="group_algoGroup_rdd"/>
+    <table id="581" parent="2" name="group">
+      <Comment>规则组表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="582" parent="2" name="goal_target">
+      <Comment>学习目标完成条件表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="583" parent="2" name="goal_filter_rdd">
+      <Comment>学习目标与过滤器关联表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="584" parent="2" name="goal">
+      <Comment>学习目标表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="585" parent="2" name="global_order_map">
+      <Comment>全局顺序图谱</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="586" parent="2" name="for_dependence_module_module_rdd_copy"/>
+    <table id="587" parent="2" name="for_dependence_module_module_rdd"/>
+    <table id="588" parent="2" name="filter">
+      <Comment>筛选目标(过滤器)表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="589" parent="2" name="dingding_course_white_poetry">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="590" parent="2" name="dingding_course_white_list">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="591" parent="2" name="dingding_course_white_commercialize">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="592" parent="2" name="dingding_course_white_check">
+      <Comment>走查白名单</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="593" parent="2" name="dingding_course_white_audio">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="594" parent="2" name="dependence_types">
+      <Comment>依赖类型枚举值表</Comment>
+    </table>
+    <table id="595" parent="2" name="dependence_module_module_rdd_copy"/>
+    <table id="596" parent="2" name="course_white_type"/>
+    <table id="597" parent="2" name="course_white_list">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="598" parent="2" name="course_resource">
+      <Comment>课程相关资源（包括家庭作业）</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="599" parent="2" name="course_module_sequence">
+      <Comment>模块固定序列表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="600" parent="2" name="course_module_rule_group_rdd">
+      <Comment>模块与规则关联表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="601" parent="2" name="course_module">
+      <Comment>课程详细模块</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="602" parent="2" name="course_commercialize"/>
+    <table id="603" parent="2" name="course">
+      <Comment>课程表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="604" parent="2" name="condition">
+      <Comment>条件表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="605" parent="2" name="algogroup_group_rdd"/>
+    <table id="606" parent="2" name="algogroup_algomodel_rdd"/>
+    <table id="607" parent="2" name="algo_model">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="608" parent="2" name="algo_group">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="609" parent="2" name="action">
+      <Comment>行为表</Comment>
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <table id="610" parent="7" name="course_data">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </table>
+    <column id="611" parent="563" name="autoutime">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="612" parent="563" name="update_time">
+      <Position>7</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="613" parent="563" name="create_time">
+      <Position>6</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="614" parent="563" name="creator">
+      <Position>5</Position>
+      <Comment>创建对象</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="615" parent="563" name="status">
+      <Position>4</Position>
+      <Comment>状态（0：删除，1：正常）</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="616" parent="563" name="activity_type">
+      <Position>3</Position>
+      <Comment>类型 详见MDS字典表</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="617" parent="563" name="name">
+      <Position>2</Position>
+      <Comment>触发器名称</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="618" parent="563" name="trigger_id">
+      <Position>1</Position>
+      <Comment>唯一ID</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="619" parent="563" name="index_trigger_status">
+      <ColNames>trigger_id
+status</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="620" parent="563" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>trigger_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="621" parent="564" name="created_time">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="622" parent="564" name="subject_id">
+      <Position>2</Position>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="623" parent="564" name="course_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="624" parent="564" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>course_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="625" parent="565" name="update_time">
+      <Position>8</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="626" parent="565" name="create_time">
+      <Position>7</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="627" parent="565" name="creator">
+      <Position>6</Position>
+      <Comment>创建者</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="628" parent="565" name="status">
+      <Position>5</Position>
+      <Comment>状态（0--删除，1--正常）</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="629" parent="565" name="stage_type">
+      <Position>4</Position>
+      <Comment>阶段类型（1--测试，2--学习，3--综合）</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="630" parent="565" name="stage_name">
+      <Position>3</Position>
+      <Comment>阶段名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="631" parent="565" name="subject_id">
+      <Position>2</Position>
+      <Comment>学科ID（0--通用，1--英语，2--数学，3--语文，4--物理，5--化学，6--生物）</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="632" parent="565" name="stage_id">
+      <Position>1</Position>
+      <Comment>阶段ID</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="633" parent="565" name="idx_stage_subject_id">
+      <ColNames>subject_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="634" parent="565" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>stage_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="635" parent="566" name="autoutime">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="636" parent="566" name="rule_id">
+      <Position>2</Position>
+      <Comment>rule的ID，cms_rule的主键</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="637" parent="566" name="group_id">
+      <Position>1</Position>
+      <Comment>rule的组ID，cms_rule_group的主键</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="638" parent="566" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>group_id
+rule_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="639" parent="567" name="autoutime">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="640" parent="567" name="priority">
+      <Position>6</Position>
+      <Comment>预留字段 优先级</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="641" parent="567" name="sort_no">
+      <Position>5</Position>
+      <Comment>排序</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="642" parent="567" name="logical_oper">
+      <Position>4</Position>
+      <Comment>关系运算符 详见MDS字典表</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="643" parent="567" name="next_cond_id">
+      <Position>3</Position>
+      <Comment>条件外键</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="644" parent="567" name="cond_id">
+      <Position>2</Position>
+      <Comment>条件外键</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="645" parent="567" name="rule_id">
+      <Position>1</Position>
+      <Comment>规则外键</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="646" parent="567" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>rule_id
+cond_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="647" parent="568" name="autoutime">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="648" parent="568" name="next_action_id">
+      <Position>3</Position>
+      <Comment>行为外键</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="649" parent="568" name="action_id">
+      <Position>2</Position>
+      <Comment>行为外键</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="650" parent="568" name="rule_id">
+      <Position>1</Position>
+      <Comment>规则外键</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="651" parent="568" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>rule_id
+action_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="652" parent="569" name="autoutime">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="653" parent="569" name="update_time">
+      <Position>10</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="654" parent="569" name="create_time">
+      <Position>9</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="655" parent="569" name="creator">
+      <Position>8</Position>
+      <Comment>创建对象</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="656" parent="569" name="status">
+      <Position>7</Position>
+      <Comment>状态（0：删除，1：正常）</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="657" parent="569" name="rule_type_desc">
+      <Position>6</Position>
+      <Comment>规则类型描述</Comment>
+      <DataType>varchar(256)|0s</DataType>
+    </column>
+    <column id="658" parent="569" name="project">
+      <Position>5</Position>
+      <Comment>学科ID</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+    </column>
+    <column id="659" parent="569" name="rule_type">
+      <Position>4</Position>
+      <Comment>类型（UPDATE_LO_MAP_RANGE：更改学习目标范围，ASSIGN：赋值，UPDATE_LO_TARGET：更改知识点目标状态，GET_RESOURCES：获取资源，REPEAT：可重复进入，RULE_TEMPLATE：生成动态规则）</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="660" parent="569" name="trigger_id">
+      <Position>3</Position>
+      <Comment>触发器外键</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="661" parent="569" name="name">
+      <Position>2</Position>
+      <Comment>规则名称</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="662" parent="569" name="rule_id">
+      <Position>1</Position>
+      <Comment>唯一ID</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="663" parent="569" name="index_trigger_id">
+      <ColNames>trigger_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="664" parent="569" name="index_rule_id_trigger_id">
+      <ColNames>rule_id
+trigger_id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="665" parent="569" name="index_rule_id_trigger_id">
+      <ColNames>rule_id
+trigger_id</ColNames>
+      <UnderlyingIndexName>index_rule_id_trigger_id</UnderlyingIndexName>
+    </key>
+    <key id="666" parent="569" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>rule_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="667" parent="570" name="autoutime">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="668" parent="570" name="update_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="669" parent="570" name="create_time">
+      <Position>8</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="670" parent="570" name="updated_user">
+      <Position>7</Position>
+      <Comment>更新对象</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="671" parent="570" name="created_user">
+      <Position>6</Position>
+      <Comment>创建对象</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="672" parent="570" name="question_list">
+      <Position>5</Position>
+      <Comment>试题列表逗号隔开</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="673" parent="570" name="knowledge_code">
+      <Position>4</Position>
+      <Comment>知识点code</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="674" parent="570" name="rand_id">
+      <Position>3</Position>
+      <Comment>镜像包id</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="675" parent="570" name="package_id">
+      <Position>2</Position>
+      <Comment>包id</Comment>
+      <DataType>int(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="676" parent="570" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="677" parent="570" name="package_id">
+      <ColNames>package_id
+knowledge_code</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="678" parent="570" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="679" parent="571" name="autoutime">
+      <Position>17</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="680" parent="571" name="update_time">
+      <Position>16</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="681" parent="571" name="create_time">
+      <Position>15</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="682" parent="571" name="updated_user">
+      <Position>14</Position>
+      <Comment>更新对象</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="683" parent="571" name="created_user">
+      <Position>13</Position>
+      <Comment>创建对象</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="684" parent="571" name="status">
+      <Position>12</Position>
+      <Comment>状态，0：错误，1：生成中，2：已完成</Comment>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="685" parent="571" name="remark">
+      <Position>11</Position>
+      <Comment>备注</Comment>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="686" parent="571" name="sort">
+      <Position>10</Position>
+      <Comment>排序</Comment>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="687" parent="571" name="knowledge_num">
+      <Position>9</Position>
+      <Comment>知识点数量</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="688" parent="571" name="question_num">
+      <Position>8</Position>
+      <Comment>试题数量</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="689" parent="571" name="select_num">
+      <Position>7</Position>
+      <Comment>选题数量规则</Comment>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="690" parent="571" name="rule_type">
+      <Position>6</Position>
+      <Comment>选题规则类型</Comment>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="691" parent="571" name="source_type">
+      <Position>5</Position>
+      <Comment>来源类型1：任务卡，2：模块</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="692" parent="571" name="source_moudle_id">
+      <Position>4</Position>
+      <Comment>来源module_id</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="693" parent="571" name="section_id">
+      <Position>3</Position>
+      <Comment>任务卡id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="694" parent="571" name="name">
+      <Position>2</Position>
+      <Comment>提包名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="695" parent="571" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="696" parent="571" name="section_id">
+      <ColNames>section_id
+source_moudle_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="697" parent="571" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="698" parent="572" name="status">
+      <Position>11</Position>
+      <Comment>1on 0OFF</Comment>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="699" parent="572" name="updte_time">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="700" parent="572" name="create_time">
+      <Position>9</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="701" parent="572" name="autoutime">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="702" parent="572" name="item_mode(已废弃)">
+      <Position>7</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="703" parent="572" name="process_mode_id">
+      <Position>6</Position>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="704" parent="572" name="module_id">
+      <Position>5</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="705" parent="572" name="number">
+      <Position>4</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="706" parent="572" name="item_order">
+      <Position>3</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="707" parent="572" name="process_type_id">
+      <Position>2</Position>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="708" parent="572" name="process_id">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="709" parent="572" name="idx_module_id">
+      <ColNames>module_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="710" parent="572" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>process_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="711" parent="573" name="autoutime">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="712" parent="573" name="update_time">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="713" parent="573" name="create_time">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="714" parent="573" name="status">
+      <Position>4</Position>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="715" parent="573" name="process_type_code">
+      <Position>3</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="716" parent="573" name="process_type_name">
+      <Position>2</Position>
+      <Comment>code对应的中文名称</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="717" parent="573" name="process_type_id">
+      <Position>1</Position>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <key id="718" parent="573" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>process_type_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="719" parent="574" name="autoutime">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="720" parent="574" name="update_time">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="721" parent="574" name="create_time">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="722" parent="574" name="status">
+      <Position>4</Position>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="723" parent="574" name="process_mode_code">
+      <Position>3</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="724" parent="574" name="process_mode_name">
+      <Position>2</Position>
+      <Comment>环节code对应的中文名称</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="725" parent="574" name="process_mode_id">
+      <Position>1</Position>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <key id="726" parent="574" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>process_mode_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="727" parent="575" name="updated_time">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="728" parent="575" name="updated_user">
+      <Position>11</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="729" parent="575" name="created_time">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="730" parent="575" name="created_user">
+      <Position>9</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="731" parent="575" name="status">
+      <Position>8</Position>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="732" parent="575" name="stage">
+      <Position>7</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="733" parent="575" name="book_version">
+      <Position>6</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="734" parent="575" name="lo_count">
+      <Position>5</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="735" parent="575" name="code">
+      <Position>4</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="736" parent="575" name="name">
+      <Position>3</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="737" parent="575" name="subject_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="738" parent="575" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <key id="739" parent="575" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="740" parent="576" name="autoutime">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="741" parent="576" name="operator_id">
+      <Position>9</Position>
+      <Comment>操作者id</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="742" parent="576" name="create_time">
+      <Position>8</Position>
+      <Comment>操作时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="743" parent="576" name="data">
+      <Position>7</Position>
+      <Comment>修改内容，json字符串</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="744" parent="576" name="op">
+      <Position>6</Position>
+      <Comment>操作类型：1添加 2修改 3删除 4查询</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="745" parent="576" name="module_name">
+      <Position>5</Position>
+      <Comment>模块名称</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="746" parent="576" name="course_id">
+      <Position>4</Position>
+      <Comment>课程id</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="747" parent="576" name="module_id">
+      <Position>3</Position>
+      <Comment>模块id</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="748" parent="576" name="module_cate">
+      <Position>2</Position>
+      <Comment>模块层级，1课程 2课次 3任务卡 4模块 5子模块</Comment>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="749" parent="576" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="750" parent="576" name="idx_operator_id">
+      <ColNames>operator_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="751" parent="576" name="idx_module_name">
+      <ColNames>module_name</ColNames>
+      <PrefixLengths>10</PrefixLengths>
+      <Type>btree</Type>
+    </index>
+    <index id="752" parent="576" name="idx_course_id">
+      <ColNames>course_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="753" parent="576" name="idx_module_id">
+      <ColNames>module_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="754" parent="576" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="755" parent="577" name="autoutime">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="756" parent="577" name="updated_time">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="757" parent="577" name="created_time">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="758" parent="577" name="status">
+      <Position>3</Position>
+      <Comment>成功:100, 失败:0</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+    </column>
+    <column id="759" parent="577" name="lesson_id">
+      <Position>2</Position>
+      <Comment>课次编号</Comment>
+      <DataType>bigint(20)|0s</DataType>
+    </column>
+    <column id="760" parent="577" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <key id="761" parent="577" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="762" parent="578" name="status">
+      <Position>7</Position>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="763" parent="578" name="create_time">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="764" parent="578" name="update_time">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="765" parent="578" name="autoutime">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="766" parent="578" name="process_id">
+      <Position>3</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="767" parent="578" name="group_id">
+      <Position>2</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="768" parent="578" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <key id="769" parent="578" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="770" parent="579" name="rdd_id">
+      <Position>3</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="771" parent="579" name="group_id">
+      <Position>2</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="772" parent="579" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <key id="773" parent="579" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="774" parent="580" name="algoGroupId">
+      <Position>3</Position>
+      <Comment>算法组id</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <column id="775" parent="580" name="groupId">
+      <Position>2</Position>
+      <Comment>组id</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <column id="776" parent="580" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <key id="777" parent="580" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="778" parent="581" name="autoutime">
+      <Position>15</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="779" parent="581" name="update_time">
+      <Position>14</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="780" parent="581" name="create_time">
+      <Position>13</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="781" parent="581" name="creator">
+      <Position>12</Position>
+      <Comment>创建对象</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="782" parent="581" name="status">
+      <Position>11</Position>
+      <Comment>状态（0：删除，1：正常）</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="783" parent="581" name="ext_1">
+      <Position>10</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="784" parent="581" name="quarter">
+      <Position>9</Position>
+      <Comment>季度code-春季，暑期，寒假，秋季，通用等code</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="785" parent="581" name="usage">
+      <Position>8</Position>
+      <Comment>课程用途code-正式课、demo课、抓手等</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="786" parent="581" name="grade">
+      <Position>7</Position>
+      <Comment>年级code</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="787" parent="581" name="subject">
+      <Position>6</Position>
+      <Comment>学科code</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="788" parent="581" name="year">
+      <Position>5</Position>
+      <Comment>年份-2017，2018等</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="789" parent="581" name="stage">
+      <Position>4</Position>
+      <Comment>上学阶段code -高中 初中等</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="790" parent="581" name="desc">
+      <Position>3</Position>
+      <Comment>组的描述</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="791" parent="581" name="name">
+      <Position>2</Position>
+      <Comment>组名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="792" parent="581" name="group_id">
+      <Position>1</Position>
+      <Comment>组的唯一ID</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="793" parent="581" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>group_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="794" parent="582" name="autoutime">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="795" parent="582" name="update_time">
+      <Position>11</Position>
+      <Comment>修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="796" parent="582" name="create_time">
+      <Position>10</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="797" parent="582" name="creator">
+      <Position>9</Position>
+      <Comment>创建人</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="798" parent="582" name="status">
+      <Position>8</Position>
+      <Comment>状态（0：删除，1：正常）</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="799" parent="582" name="duration">
+      <Position>7</Position>
+      <Comment>时长(秒)</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="800" parent="582" name="target_score">
+      <Position>6</Position>
+      <Comment>targetType变量对应的值</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="801" parent="582" name="cond_oper">
+      <Position>5</Position>
+      <Comment>目标条件运算符（EQ：等于，NEQ：不等于，GT：大于，LT：小于，EGT：大于等于，ELT：小于等于，CONTAIN：包含，NOTCONTAIN：不包含）</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="802" parent="582" name="target_type">
+      <Position>4</Position>
+      <Comment>默认目标类型（QUANTITY_00_00_02：当前section中，每个知识点测试题量，QUANTITY_00_00_03：当前section中，每个知识点学习题量，QUANTITY_00_00_04：当前section中，每个知识点学习题+测试题的总题量，ABILITY_00：单个知识点的能力值，QRANK_02：当前section中，每个知识点测试题作答结果序列，QRANK_03：当前section中，每个知识点学习题作答结果序列，NO_MERTIC：无需达标(仅需做推荐)，RIGHTRATE_00_00_02：测试题正答率(当前section单个知识点)，RIGHTRATE_00_00_03：学习题正答率(当前section单个知识点)，RIGHTRATE_00_00_04：所有题正答率(当前section单个知识点)，RIGHTRATE_01_01_05：所有题冒题正答率）</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="803" parent="582" name="lo_id">
+      <Position>3</Position>
+      <Comment>知识点外键</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="804" parent="582" name="goal_id">
+      <Position>2</Position>
+      <Comment>学习目标外键</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="805" parent="582" name="goal_target_id">
+      <Position>1</Position>
+      <Comment>学习目标完成条件主键</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="806" parent="582" name="index_lo_id">
+      <ColNames>lo_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="807" parent="582" name="index_goal_id_lo_id">
+      <ColNames>goal_id
+lo_id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="808" parent="582" name="index_goal_id_lo_id">
+      <ColNames>goal_id
+lo_id</ColNames>
+      <UnderlyingIndexName>index_goal_id_lo_id</UnderlyingIndexName>
+    </key>
+    <key id="809" parent="582" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goal_target_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="810" parent="583" name="autoutime">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="811" parent="583" name="filter_id">
+      <Position>2</Position>
+      <Comment>过滤器ID</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="812" parent="583" name="goal_id">
+      <Position>1</Position>
+      <Comment>目标ID</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="813" parent="583" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goal_id
+filter_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="814" parent="584" name="autoutime">
+      <Position>15</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="815" parent="584" name="update_time">
+      <Position>14</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="816" parent="584" name="create_time">
+      <Position>13</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="817" parent="584" name="creator">
+      <Position>12</Position>
+      <Comment>创建对象</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="818" parent="584" name="status">
+      <Position>11</Position>
+      <Comment>状态（0：删除，1：正常）</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="819" parent="584" name="model">
+      <Position>10</Position>
+      <Comment>模型</Comment>
+      <DataType>enum(&apos;STATIC&apos;, &apos;DYNAMIC&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;STATIC&apos;</DefaultExpression>
+    </column>
+    <column id="820" parent="584" name="duration">
+      <Position>9</Position>
+      <Comment>时长,单位为秒(s)</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="821" parent="584" name="max_recommendation_size">
+      <Position>8</Position>
+      <Comment>一次性推荐的activity数量</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>3</DefaultExpression>
+    </column>
+    <column id="822" parent="584" name="metrics_enabled">
+      <Position>7</Position>
+      <Comment>否可测量（YES：是，NO：否）</Comment>
+      <DataType>enum(&apos;YES&apos;, &apos;NO&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;YES&apos;</DefaultExpression>
+    </column>
+    <column id="823" parent="584" name="default_target_score">
+      <Position>6</Position>
+      <Comment>default_target_type对应的值</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="824" parent="584" name="default_cond_oper">
+      <Position>5</Position>
+      <Comment>目标条件运算符（EQ：等于，NEQ：不等于，GT：大于，LT：小于，EGT：大于等于，ELT：小于等于，CONTAIN：包含，NOTCONTAIN：不包含）</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="825" parent="584" name="default_target_type">
+      <Position>4</Position>
+      <Comment>默认目标类型（QUANTITY_00_00_02：当前section中，每个知识点测试题量，QUANTITY_00_00_03：当前section中，每个知识点学习题量，QUANTITY_00_00_04：当前section中，每个知识点学习题+测试题的总题量，ABILITY_00：单个知识点的能力值，QRANK_02：当前section中，每个知识点测试题作答结果序列，QRANK_03：当前section中，每个知识点学习题作答结果序列，NO_MERTIC：无需达标(仅需做推荐)，RIGHTRATE_00_00_02：测试题正答率(当前section单个知识点)，RIGHTRATE_00_00_03：学习题正答率(当前section单个知识点)，RIGHTRATE_00_00_04：所有题正答率(当前section单个知识点)，RIGHTRATE_01_01_05：所有题冒题正答率）</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="826" parent="584" name="type">
+      <Position>3</Position>
+      <Comment>类型(ASSESSMENT:测评,STUDY:学习,MIX:复合类型)</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="827" parent="584" name="name">
+      <Position>2</Position>
+      <Comment>学习目标名称</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="828" parent="584" name="goal_id">
+      <Position>1</Position>
+      <Comment>唯一ID</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="829" parent="584" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goal_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="830" parent="585" name="autoutime">
+      <Position>14</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="831" parent="585" name="updated_user">
+      <Position>13</Position>
+      <Comment>修改人</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="832" parent="585" name="updated_time">
+      <Position>12</Position>
+      <Comment>修改时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="833" parent="585" name="created_user">
+      <Position>11</Position>
+      <Comment>创建人</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="834" parent="585" name="created_time">
+      <Position>10</Position>
+      <Comment>创建日期</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="835" parent="585" name="status">
+      <Position>9</Position>
+      <Comment>状态。1：启用，2：禁用</Comment>
+      <DataType>tinyint(3) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="836" parent="585" name="origin">
+      <Position>8</Position>
+      <Comment>上传文件内容</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="837" parent="585" name="sort">
+      <Position>7</Position>
+      <Comment>排序值</Comment>
+      <DataType>double(11,5 digit)|0s</DataType>
+    </column>
+    <column id="838" parent="585" name="stage">
+      <Position>6</Position>
+      <Comment>阶段（20：通用,30：小学,40：初中, 50：高中）</Comment>
+      <DataType>tinyint(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>20</DefaultExpression>
+    </column>
+    <column id="839" parent="585" name="book_version">
+      <Position>5</Position>
+      <Comment>教材版本（20：通用,21：外研版,22：人教版,23：苏教版,24：译林版,25：沪教版,26：北师大版,27：沪科版,28：浙教版,29：华师大版,30：鲁教版,31：冀教版,32：沪粤版,33：苏科版）</Comment>
+      <DataType>tinyint(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>20</DefaultExpression>
+    </column>
+    <column id="840" parent="585" name="knowledge_code">
+      <Position>4</Position>
+      <Comment>知识点code</Comment>
+      <DataType>varchar(50)|0s</DataType>
+    </column>
+    <column id="841" parent="585" name="order_map_id">
+      <Position>3</Position>
+      <Comment>顺序图谱编号</Comment>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="842" parent="585" name="subject_id">
+      <Position>2</Position>
+      <Comment>学科ID（1：英语,2：数学,3：语文,4：物理,5：化学,6：生物,0：通用）</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="843" parent="585" name="id">
+      <Position>1</Position>
+      <Comment>主键</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="844" parent="585" name="index_created_time">
+      <ColNames>created_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="845" parent="585" name="knowledge_code">
+      <ColNames>knowledge_code</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="846" parent="585" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="847" parent="586" name="sources">
+      <Position>4</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="848" parent="586" name="dependence_type_id">
+      <Position>3</Position>
+      <DataType>int(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="849" parent="586" name="associated_module_id">
+      <Position>2</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="850" parent="586" name="main_module_id">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <key id="851" parent="586" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>main_module_id
+associated_module_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="852" parent="587" name="sources">
+      <Position>5</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="853" parent="587" name="dependence_type_id">
+      <Position>4</Position>
+      <DataType>int(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="854" parent="587" name="associated_module_id">
+      <Position>3</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="855" parent="587" name="main_module_id">
+      <Position>2</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="856" parent="587" name="id">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="857" parent="587" name="index_main_module_id_sources">
+      <ColNames>main_module_id
+sources</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="858" parent="587" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="859" parent="588" name="autoutime">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="860" parent="588" name="update_time">
+      <Position>10</Position>
+      <Comment>修改对象</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="861" parent="588" name="create_time">
+      <Position>9</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="862" parent="588" name="creator">
+      <Position>8</Position>
+      <Comment>创建者</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="863" parent="588" name="status">
+      <Position>7</Position>
+      <Comment>状态（0：删除，1：正常）</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="864" parent="588" name="is_include">
+      <Position>6</Position>
+      <Comment>包括或排除</Comment>
+      <DataType>enum(&apos;INCLUDE&apos;, &apos;EXCLUDE&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;INCLUDE&apos;</DefaultExpression>
+    </column>
+    <column id="865" parent="588" name="value">
+      <Position>5</Position>
+      <Comment>filterItem过滤对应的值</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="866" parent="588" name="operator">
+      <Position>4</Position>
+      <Comment>关系运算符 详见MDS字典表</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="867" parent="588" name="item">
+      <Position>3</Position>
+      <Comment>过滤依据的列名（USAGE：用途，QTYPE：题型，QFORM：题目形式，DIFFICULT：难度，VTYPE：视频类型，LO：知识点）</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="868" parent="588" name="type">
+      <Position>2</Position>
+      <Comment>类型（QUEST_1：练习题过滤器，QUEST_2：学习题过滤器，QUEST_6：综合题过滤器，QUEST_20：互动题过滤器，QUEST_0：题目过滤器(知识点下所有题)，VIDEO_00：知识点视频过滤器(知识点所有视频)，LO：知识点过滤器）</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="869" parent="588" name="filter_id">
+      <Position>1</Position>
+      <Comment>过滤器主键</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="870" parent="588" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>filter_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="871" parent="589" name="created_time">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="872" parent="589" name="subject_id">
+      <Position>2</Position>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="873" parent="589" name="course_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="874" parent="589" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>course_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="875" parent="590" name="created_time">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="876" parent="590" name="subject_id">
+      <Position>2</Position>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="877" parent="590" name="course_id">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="878" parent="590" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>course_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="879" parent="591" name="sort">
+      <Position>4</Position>
+      <Comment>排序</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="880" parent="591" name="created_time">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="881" parent="591" name="subject_id">
+      <Position>2</Position>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="882" parent="591" name="course_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="883" parent="591" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>course_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="884" parent="592" name="created_time">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="885" parent="592" name="type">
+      <Position>4</Position>
+      <Comment>类型</Comment>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="886" parent="592" name="subject_id">
+      <Position>3</Position>
+      <Comment>学科</Comment>
+      <DataType>tinyint(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="887" parent="592" name="course_id">
+      <Position>2</Position>
+      <Comment>课程</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="888" parent="592" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="889" parent="592" name="course_id">
+      <ColNames>course_id
+type</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="890" parent="592" name="course_id">
+      <ColNames>course_id
+type</ColNames>
+      <UnderlyingIndexName>course_id</UnderlyingIndexName>
+    </key>
+    <key id="891" parent="592" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="892" parent="593" name="created_time">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="893" parent="593" name="subject_id">
+      <Position>2</Position>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="894" parent="593" name="course_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="895" parent="593" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>course_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="896" parent="594" name="update_time">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="897" parent="594" name="create_time">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="898" parent="594" name="autoutime">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="899" parent="594" name="status">
+      <Position>5</Position>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="900" parent="594" name="dependence_type_cate">
+      <Position>4</Position>
+      <Comment>1:模块依赖 2:课程依赖</Comment>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="901" parent="594" name="dependence_type_name">
+      <Position>3</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="902" parent="594" name="dependence_type_code">
+      <Position>2</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="903" parent="594" name="dependence_type_id">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="904" parent="594" name="index_dependence_type_id_status">
+      <ColNames>dependence_type_id
+status</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="905" parent="594" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dependence_type_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="906" parent="595" name="sources">
+      <Position>4</Position>
+      <DataType>bigint(20)|0s</DataType>
+    </column>
+    <column id="907" parent="595" name="depend_type_id">
+      <Position>3</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="908" parent="595" name="module_id">
+      <Position>2</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="909" parent="595" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <key id="910" parent="595" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="911" parent="596" name="update_time">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="912" parent="596" name="create_time">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="913" parent="596" name="autoutime">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="914" parent="596" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="915" parent="596" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <key id="916" parent="596" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="917" parent="597" name="created_time">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="918" parent="597" name="type">
+      <Position>3</Position>
+      <Comment>白名单类型</Comment>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="919" parent="597" name="subject_id">
+      <Position>2</Position>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="920" parent="597" name="course_id">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="921" parent="597" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>course_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="922" parent="598" name="autoutime">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="923" parent="598" name="update_time">
+      <Position>10</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="924" parent="598" name="create_time">
+      <Position>9</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="925" parent="598" name="creator">
+      <Position>8</Position>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="926" parent="598" name="status">
+      <Position>7</Position>
+      <Comment>状态（0：删除，1：正常）</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="927" parent="598" name="type">
+      <Position>6</Position>
+      <Comment>类别：0 不区分（默认）,1只有学生看到，2只有老师看到</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="928" parent="598" name="description">
+      <Position>5</Position>
+      <Comment>资源描述</Comment>
+      <DataType>varchar(512)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="929" parent="598" name="title">
+      <Position>4</Position>
+      <Comment>标题</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="930" parent="598" name="content">
+      <Position>3</Position>
+      <Comment>资源链接</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="931" parent="598" name="course_id">
+      <Position>2</Position>
+      <Comment>课程id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="932" parent="598" name="resource_id">
+      <Position>1</Position>
+      <Comment>资源id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="933" parent="598" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>resource_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="934" parent="599" name="autoutime">
+      <Position>13</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="935" parent="599" name="update_time">
+      <Position>12</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="936" parent="599" name="create_time">
+      <Position>11</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="937" parent="599" name="creator">
+      <Position>10</Position>
+      <Comment>创建对象</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="938" parent="599" name="status">
+      <Position>9</Position>
+      <Comment>状态（0：删除，1：正常）</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="939" parent="599" name="sort_id">
+      <Position>8</Position>
+      <Comment>序号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="940" parent="599" name="item_id">
+      <Position>7</Position>
+      <Comment>资源ID</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="941" parent="599" name="item_type">
+      <Position>6</Position>
+      <Comment>资源用途（SECTION：阶段，99：题冒题，1000：导入视频，2000：兴趣视频）</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="942" parent="599" name="duration">
+      <Position>5</Position>
+      <Comment>变量</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="943" parent="599" name="type">
+      <Position>4</Position>
+      <Comment>类型(DQUESTION--做题,RVIEDO--看视频,RDOC--看讲义)</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="944" parent="599" name="position">
+      <Position>3</Position>
+      <Comment>所处位置（开始:BEGIN, 结束:END）</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="945" parent="599" name="module_id">
+      <Position>2</Position>
+      <Comment>模块ID外键</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="946" parent="599" name="sequence_id">
+      <Position>1</Position>
+      <Comment>唯一ID</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="947" parent="599" name="index_module_id">
+      <ColNames>module_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="948" parent="599" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>sequence_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="949" parent="600" name="autoutime">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="950" parent="600" name="update_time">
+      <Position>3</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="951" parent="600" name="group_id">
+      <Position>2</Position>
+      <Comment>规则外键</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="952" parent="600" name="module_id">
+      <Position>1</Position>
+      <Comment>模块外键</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="953" parent="600" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>module_id
+group_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="954" parent="601" name="study_time">
+      <Position>35</Position>
+      <Comment>学习时间:学苗,学中,学霸</Comment>
+      <DataType>varchar(1000)|0s</DataType>
+    </column>
+    <column id="955" parent="601" name="new_field">
+      <Position>34</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="956" parent="601" name="correct_answer_rate">
+      <Position>33</Position>
+      <Comment>物理学科的第4级和第5级需要后台填写的正答率，正数表示启用，负数表示不启用</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="957" parent="601" name="data_source">
+      <Position>32</Position>
+      <Comment>旧模块来源，20为通用，21为线下，22为线上</Comment>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <DefaultExpression>20</DefaultExpression>
+    </column>
+    <column id="958" parent="601" name="old_module_id">
+      <Position>31</Position>
+      <Comment>旧模块ID</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="959" parent="601" name="url">
+      <Position>30</Position>
+      <Comment>外链url</Comment>
+      <DataType>varchar(250)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="960" parent="601" name="study_content">
+      <Position>29</Position>
+      <Comment>学习内容，主要针对错题复习，保存要学习的tid列表 例如：192,10,3</Comment>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="961" parent="601" name="autoutime">
+      <Position>28</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="962" parent="601" name="update_time">
+      <Position>27</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="963" parent="601" name="create_time_local">
+      <Position>26</Position>
+      <Comment>数据创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="964" parent="601" name="create_time">
+      <Position>25</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="965" parent="601" name="updator">
+      <Position>24</Position>
+      <Comment>更新人ID</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="966" parent="601" name="creator">
+      <Position>23</Position>
+      <Comment>创建人ID</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="967" parent="601" name="goal_id">
+      <Position>22</Position>
+      <Comment>学习目标外键</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="968" parent="601" name="lomap_id">
+      <Position>21</Position>
+      <Comment>图谱ID</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="969" parent="601" name="sort_id">
+      <Position>20</Position>
+      <Comment>排列顺序</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="970" parent="601" name="duration">
+      <Position>19</Position>
+      <Comment>时长(秒)</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="971" parent="601" name="type">
+      <Position>18</Position>
+      <Comment>类型（1：专题学习（默认），2：错题复习，3：外链url）</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="972" parent="601" name="status">
+      <Position>17</Position>
+      <Comment>状态（0：已删除，1：未走查，2：部分走查中，90：走查中，100：已交付）</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="973" parent="601" name="topic_id">
+      <Position>16</Position>
+      <Comment>专题id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="974" parent="601" name="pic_url">
+      <Position>15</Position>
+      <Comment>图片地址</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="975" parent="601" name="if_stat_error_reason">
+      <Position>14</Position>
+      <Comment>是否错因分析(0:否,1:是)</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+    </column>
+    <column id="976" parent="601" name="k_module">
+      <Position>13</Position>
+      <Comment>知识点模块类型(1:语法,2:听力,3:阅读,4:虚词,5:实词)</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+    </column>
+    <column id="977" parent="601" name="process_show_type">
+      <Position>12</Position>
+      <Comment>环节展示类型：1普通环节 2混合环节</Comment>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="978" parent="601" name="dependence_show_type">
+      <Position>11</Position>
+      <Comment>依赖展示类型：1模块依赖 2课程依赖</Comment>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="979" parent="601" name="s_module_type">
+      <Position>10</Position>
+      <Comment>学习模块类型（参考stage表中的stage_type字段）</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+    </column>
+    <column id="980" parent="601" name="s_module">
+      <Position>9</Position>
+      <Comment>学习模块类型(参考stage表中的stage_id字段)</Comment>
+      <DataType>bigint(20)|0s</DataType>
+    </column>
+    <column id="981" parent="601" name="description">
+      <Position>8</Position>
+      <Comment>模块描述</Comment>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="982" parent="601" name="name">
+      <Position>7</Position>
+      <Comment>模块名称</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="983" parent="601" name="if_use_parent_lomap">
+      <Position>6</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="984" parent="601" name="course_id">
+      <Position>5</Position>
+      <Comment>课程id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="985" parent="601" name="path">
+      <Position>4</Position>
+      <Comment>从根节点到当前节点路径</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="986" parent="601" name="path_level">
+      <Position>3</Position>
+      <Comment>所在课程树层级</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="987" parent="601" name="parent_id">
+      <Position>2</Position>
+      <Comment>父级id，0顶级</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="988" parent="601" name="module_id">
+      <Position>1</Position>
+      <Comment>模块id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="989" parent="601" name="old_module_id">
+      <ColNames>old_module_id
+data_source</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="990" parent="601" name="index_goal_id">
+      <ColNames>goal_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="991" parent="601" name="index_lomap_id">
+      <ColNames>lomap_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="992" parent="601" name="index_course_id">
+      <ColNames>course_id
+create_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="993" parent="601" name="index_parent_id">
+      <ColNames>parent_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="994" parent="601" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>module_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="995" parent="602" name="study_suggest">
+      <Position>17</Position>
+      <Comment>学习建议</Comment>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="996" parent="602" name="detail">
+      <Position>16</Position>
+      <Comment>课程详情</Comment>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="997" parent="602" name="description">
+      <Position>15</Position>
+      <Comment>参考价格</Comment>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="998" parent="602" name="autoutime">
+      <Position>14</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="999" parent="602" name="updated_time">
+      <Position>13</Position>
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1000" parent="602" name="created_time">
+      <Position>12</Position>
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="1001" parent="602" name="updator">
+      <Position>11</Position>
+      <Comment>修改人ID</Comment>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="1002" parent="602" name="creator">
+      <Position>10</Position>
+      <Comment>创建人ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1003" parent="602" name="status">
+      <Position>9</Position>
+      <Comment>状态:1:启用, 0:未启用</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+    </column>
+    <column id="1004" parent="602" name="sort">
+      <Position>8</Position>
+      <Comment>排序</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1005" parent="602" name="reference_price">
+      <Position>7</Position>
+      <Comment>参考价格</Comment>
+      <DataType>float|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1006" parent="602" name="percent_middle_exam">
+      <Position>6</Position>
+      <Comment>封面缩略图</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1007" parent="602" name="thumb_url_max">
+      <Position>5</Position>
+      <Comment>封面缩略图(大)</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1008" parent="602" name="thumb_url">
+      <Position>4</Position>
+      <Comment>封面缩略图</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1009" parent="602" name="course_id">
+      <Position>3</Position>
+      <Comment>课程编号</Comment>
+      <DataType>bigint(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1010" parent="602" name="subject_id">
+      <Position>2</Position>
+      <Comment>科目</Comment>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="1011" parent="602" name="id">
+      <Position>1</Position>
+      <Comment>自增id</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="1012" parent="602" name="course_id">
+      <ColNames>course_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1013" parent="602" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="1014" parent="603" name="locked">
+      <Position>30</Position>
+      <Comment>课程锁定，1：锁定，0：未锁定</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1015" parent="603" name="create_type">
+      <Position>29</Position>
+      <Comment>创建来源，20为运营平台，21为线下，22为线上</Comment>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <DefaultExpression>20</DefaultExpression>
+    </column>
+    <column id="1016" parent="603" name="data_source">
+      <Position>28</Position>
+      <Comment>旧课程来源，20为通用，21为线下，22为线上</Comment>
+      <DataType>tinyint(4) unsigned|0s</DataType>
+      <DefaultExpression>20</DefaultExpression>
+    </column>
+    <column id="1017" parent="603" name="old_course_id">
+      <Position>27</Position>
+      <Comment>旧课程ID</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1018" parent="603" name="cost_minute">
+      <Position>26</Position>
+      <Comment>消课分钟，单位：分钟</Comment>
+      <DataType>smallint(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1019" parent="603" name="cost_hour">
+      <Position>25</Position>
+      <Comment>消课小时，单位：分钟</Comment>
+      <DataType>smallint(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1020" parent="603" name="cost_unit">
+      <Position>24</Position>
+      <Comment>消课单位，单位：分钟</Comment>
+      <DataType>smallint(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1021" parent="603" name="cost_all">
+      <Position>23</Position>
+      <Comment>消课时数，单位：分钟</Comment>
+      <DataType>smallint(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1022" parent="603" name="autoutime">
+      <Position>22</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1023" parent="603" name="update_time">
+      <Position>21</Position>
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1024" parent="603" name="create_time">
+      <Position>20</Position>
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="1025" parent="603" name="updator">
+      <Position>19</Position>
+      <Comment>修改人ID</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="1026" parent="603" name="creator">
+      <Position>18</Position>
+      <Comment>创建人ID</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1027" parent="603" name="jump_type">
+      <Position>17</Position>
+      <Comment>跳转类型(0:通用，100:试听课)</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1028" parent="603" name="status">
+      <Position>16</Position>
+      <Comment>状态（0：已删除，1：未走查，2：部分走查中，90：走查中，100：已交付）</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="1029" parent="603" name="year">
+      <Position>15</Position>
+      <Comment>课程年份</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1030" parent="603" name="type">
+      <Position>14</Position>
+      <Comment>课程类型（20：正式课,21：试听课,22：DL测评）</Comment>
+      <DataType>tinyint(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>20</DefaultExpression>
+    </column>
+    <column id="1031" parent="603" name="uses">
+      <Position>13</Position>
+      <Comment>用途（20：通用,21：同步,22：冲刺）</Comment>
+      <DataType>tinyint(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>20</DefaultExpression>
+    </column>
+    <column id="1032" parent="603" name="term">
+      <Position>12</Position>
+      <Comment>学期（20：通用,21：老春季(已废弃),22：暑期,23：秋季,24：寒假,25：新春季）</Comment>
+      <DataType>tinyint(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>20</DefaultExpression>
+    </column>
+    <column id="1033" parent="603" name="grade">
+      <Position>11</Position>
+      <Comment>年级（20：通用,1：一年级,2：二年级,3：三年级,4：四年级,5：五年级,6：六年级,7：七年级,8：八年级,9：九年级,10：高一,11：高二,12：高三）</Comment>
+      <DataType>tinyint(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>20</DefaultExpression>
+    </column>
+    <column id="1034" parent="603" name="subject_id">
+      <Position>10</Position>
+      <Comment>学科ID（1：英语,2：数学,3：语文,4：物理,5：化学,6：生物,0：通用）</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1035" parent="603" name="stage">
+      <Position>9</Position>
+      <Comment>阶段（20：通用,30：小学,40：初中, 50：高中）</Comment>
+      <DataType>tinyint(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>20</DefaultExpression>
+    </column>
+    <column id="1036" parent="603" name="book_version">
+      <Position>8</Position>
+      <Comment>教材版本（20：通用,21：外研版,22：人教版,23：苏教版,24：译林版,25：沪教版,26：北师大版,27：沪科版,28：浙教版,29：华师大版,30：鲁教版,31：冀教版,32：沪粤版,33：苏科版）</Comment>
+      <DataType>tinyint(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>20</DefaultExpression>
+    </column>
+    <column id="1037" parent="603" name="course_sn">
+      <Position>7</Position>
+      <Comment>课程编号</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1038" parent="603" name="pic_url">
+      <Position>6</Position>
+      <Comment>课程封面图片</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1039" parent="603" name="description">
+      <Position>5</Position>
+      <Comment>课程描述</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1040" parent="603" name="end_time">
+      <Position>4</Position>
+      <Comment>课程结束时间</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1041" parent="603" name="start_time">
+      <Position>3</Position>
+      <Comment>课程开始时间</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1042" parent="603" name="course_name">
+      <Position>2</Position>
+      <Comment>课程名</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1043" parent="603" name="course_id">
+      <Position>1</Position>
+      <Comment>课程id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="1044" parent="603" name="old_course_id">
+      <ColNames>old_course_id
+data_source</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1045" parent="603" name="index_year">
+      <ColNames>year</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1046" parent="603" name="index_type">
+      <ColNames>type</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1047" parent="603" name="index_uses">
+      <ColNames>uses</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1048" parent="603" name="index_grade">
+      <ColNames>grade</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1049" parent="603" name="index_subject_id">
+      <ColNames>subject_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1050" parent="603" name="index_stage">
+      <ColNames>stage</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1051" parent="603" name="index_book_version">
+      <ColNames>book_version</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1052" parent="603" name="index_course_name">
+      <ColNames>course_name</ColNames>
+      <PrefixLengths>191</PrefixLengths>
+      <Type>btree</Type>
+    </index>
+    <key id="1053" parent="603" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>course_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="1054" parent="604" name="autoutime">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1055" parent="604" name="update_time">
+      <Position>9</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1056" parent="604" name="create_time">
+      <Position>8</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="1057" parent="604" name="creator">
+      <Position>7</Position>
+      <Comment>创建者</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="1058" parent="604" name="status">
+      <Position>6</Position>
+      <Comment>状态（0：删除，1：正常）</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="1059" parent="604" name="value">
+      <Position>5</Position>
+      <Comment>值</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1060" parent="604" name="operator_sign">
+      <Position>4</Position>
+      <Comment>关系运算符 详见MDS字典表</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1061" parent="604" name="variable">
+      <Position>3</Position>
+      <Comment>变量</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1062" parent="604" name="name">
+      <Position>2</Position>
+      <Comment>条件名称</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1063" parent="604" name="cond_id">
+      <Position>1</Position>
+      <Comment>唯一ID</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="1064" parent="604" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>cond_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="1065" parent="605" name="algo_group_id">
+      <Position>2</Position>
+      <Comment>算法组id</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <column id="1066" parent="605" name="group_id">
+      <Position>1</Position>
+      <Comment>组id</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <column id="1067" parent="606" name="algo_model_id">
+      <Position>3</Position>
+      <Comment>算法模型id</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <column id="1068" parent="606" name="algo_group_id">
+      <Position>2</Position>
+      <Comment>算法组Id</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <column id="1069" parent="606" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="1070" parent="606" name="index_algo_group_algo_model">
+      <ColNames>algo_group_id
+algo_model_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1071" parent="606" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="1072" parent="607" name="update_time">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1073" parent="607" name="autoutime">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1074" parent="607" name="create_time">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="1075" parent="607" name="status">
+      <Position>5</Position>
+      <Comment>1启用 0禁用</Comment>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="1076" parent="607" name="model_version">
+      <Position>4</Position>
+      <Comment>算法模型具体版本（例如：能力值计算原始方法为ABI_V1，能力值计算加入做题时间参数ABI_V2)）</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1077" parent="607" name="algo_code">
+      <Position>3</Position>
+      <Comment>算法模型名称（例如：能力值计算为ABILITY_ALGO）</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1078" parent="607" name="algo_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="1079" parent="607" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="1080" parent="607" name="index_id_status">
+      <ColNames>id
+status</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1081" parent="607" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="1082" parent="608" name="update_time">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1083" parent="608" name="autoutime">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1084" parent="608" name="status">
+      <Position>4</Position>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="1085" parent="608" name="create_time">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="1086" parent="608" name="group_desc">
+      <Position>2</Position>
+      <Comment>算法模型组描述</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1087" parent="608" name="algo_group_id">
+      <Position>1</Position>
+      <Comment>算法模型组编号，通过此编号查询algo_model表中具体的算法模型</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="1088" parent="608" name="idx_algo_group">
+      <ColNames>algo_group_id</ColNames>
+      <PrefixLengths>191</PrefixLengths>
+      <Type>btree</Type>
+    </index>
+    <column id="1089" parent="609" name="autoutime">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1090" parent="609" name="update_time">
+      <Position>10</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1091" parent="609" name="create_time">
+      <Position>9</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="1092" parent="609" name="creator">
+      <Position>8</Position>
+      <Comment>创建对象</Comment>
+      <DataType>varchar(64)|0s</DataType>
+    </column>
+    <column id="1093" parent="609" name="status">
+      <Position>7</Position>
+      <Comment>状态（0：删除，1：正常）</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="1094" parent="609" name="value">
+      <Position>6</Position>
+      <Comment>值</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1095" parent="609" name="action_type">
+      <Position>5</Position>
+      <Comment>类型 详见MDS字典表</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1096" parent="609" name="operator_sign">
+      <Position>4</Position>
+      <Comment>关系运算符 详见MDS字典表</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1097" parent="609" name="variable">
+      <Position>3</Position>
+      <Comment>变量</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1098" parent="609" name="name">
+      <Position>2</Position>
+      <Comment>行为名称</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1099" parent="609" name="action_id">
+      <Position>1</Position>
+      <Comment>唯一ID</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="1100" parent="609" name="index_action_status">
+      <ColNames>action_id
+status</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1101" parent="609" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>action_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="1102" parent="610" name="updated_at">
+      <Position>15</Position>
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="1103" parent="610" name="created_at">
+      <Position>14</Position>
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="1104" parent="610" name="remask">
+      <Position>13</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1105" parent="610" name="avg_memory">
+      <Position>12</Position>
+      <Comment>平均内存KB大小</Comment>
+      <DataType>int(11) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1106" parent="610" name="avg_cpu">
+      <Position>11</Position>
+      <Comment>平均CPU百分比</Comment>
+      <DataType>tinyint(3) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1107" parent="610" name="course_change_status">
+      <Position>10</Position>
+      <Comment>课程切换是否正常0-&gt;否 1-&gt;是</Comment>
+      <DataType>tinyint(3) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1108" parent="610" name="course_finish_status">
+      <Position>9</Position>
+      <Comment>课程结束是否正常 0-&gt;否 1-&gt;是</Comment>
+      <DataType>tinyint(3) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1109" parent="610" name="continue_status">
+      <Position>8</Position>
+      <Comment>继续状态是否正常0-&gt;否 1-&gt;是</Comment>
+      <DataType>tinyint(3) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1110" parent="610" name="stop_status">
+      <Position>7</Position>
+      <Comment>暂停状态是否正常0-&gt;否 1-&gt;是</Comment>
+      <DataType>tinyint(3) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1111" parent="610" name="start_status">
+      <Position>6</Position>
+      <Comment>启动状态是否正常0-&gt;否 1-&gt;是</Comment>
+      <DataType>tinyint(3) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="1112" parent="610" name="fields_json_data">
+      <Position>5</Position>
+      <Comment>字段名(json存储)</Comment>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="1113" parent="610" name="real_course_name">
+      <Position>4</Position>
+      <Comment>实际课程名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1114" parent="610" name="expect_course_name">
+      <Position>3</Position>
+      <Comment>预期课程名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1115" parent="610" name="course_exe_name">
+      <Position>2</Position>
+      <Comment>课程exe名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="1116" parent="610" name="id">
+      <Position>1</Position>
+      <Comment>id-自增id</Comment>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <key id="1117" parent="610" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
