@@ -34,7 +34,6 @@ public class Http
 				outputStream.close();
 				String data = new String(outputStream.toByteArray(), StandardCharsets.UTF_8);
 				System.out.println(data);
-
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

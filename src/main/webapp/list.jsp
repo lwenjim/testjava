@@ -9,8 +9,8 @@
 </head>
 <%
     String context = request.getContextPath();
-        request.setAttribute("course_id", request.getParameter("course_id"));
-        request.setAttribute("course_name", request.getParameter("course_name"));
+    request.setAttribute("course_id", request.getParameter("course_id"));
+    request.setAttribute("course_name", request.getParameter("course_name"));
 %>
 
 <body>
@@ -25,8 +25,7 @@
     </c:if>
 
     <c:if test="${fn:length(result.dataList) gt 0 }">
-        <table border="1px" cellspacing="0px"
-               style="border-collapse: collapse">
+        <table border="1px" cellspacing="0px" style="border-collapse: collapse">
             <thead>
             <tr height="30">
                 <th width="130">课程编号</th>
