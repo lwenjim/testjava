@@ -10,40 +10,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb3a6c5-6a46-4a8a-98b8-2d26d60f27f4" name="Changes" comment="&#10;# feat：新功能（feature）&#10;# fix：修补bug&#10;# docs：文档（documentation）&#10;# style： 格式（不影响代码运行的变动）&#10;# refactor：重构（即不是新增功能，也不是修改bug的代码变动）&#10;# test：增加测试&#10;# chore：构建过程或辅助工具的变动">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www/Aes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www/MyX509TrustManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/DataOutputStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/FileInputStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/FileReaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/FileTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/PrintStringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/bufferedReaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwenjim/io/DataOutputStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwenjim/io/FileInputStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwenjim/io/FileReaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwenjim/io/FileTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwenjim/io/IoPropertiesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwenjim/io/ObjectOutputStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwenjim/io/PrintStringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwenjim/io/PropertiesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwenjim/io/bufferedReaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwenjim/mq/Producer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/userinfo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testjava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testjava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userinfo.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitlgnore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/testjava_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/testjava_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_79.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/www/Aes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/www/MyX509TrustManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/www/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/www/TestApplication.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +178,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15491557" />
     <property name="project.structure.side.proportion" value="0.27283236" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2905199" />
   </component>
   <component name="ReactorSettings">
@@ -476,7 +509,7 @@
       <workItem from="1667573001801" duration="629000" />
       <workItem from="1679746943425" duration="82836000" />
       <workItem from="1680669380706" duration="352000" />
-      <workItem from="1680669764041" duration="739000" />
+      <workItem from="1680669764041" duration="1101000" />
     </task>
     <task id="LOCAL-00001" summary="业务重构">
       <created>1630479053712</created>
