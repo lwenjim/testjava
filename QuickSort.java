@@ -75,7 +75,7 @@ public class QuickSort implements IArraySort {
 	 * @param arr
 	 * @return
 	 */
-	private int partition2(int[] arr, int left, int right) {
+	public int partition2(int[] arr, int left, int right) {
 		int pivot = left;
 		int i = left + 1;
 		int j =  right;
