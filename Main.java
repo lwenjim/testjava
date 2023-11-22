@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
+        
+    }
+
+    public void sort(){
         int[] arr = { 1, 2, 5, 4 };
         QuickSort qs = new QuickSort();
         try {
